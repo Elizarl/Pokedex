@@ -10,13 +10,12 @@
     padding-top: 6rem;
   }
   .poke-display {
-    padding-right: 1.2rem;
+    margin:7rem 1rem;
     display: flex;
     justify-content: center;
-
     img {
-      width: 400px;
-      height: auto;
+        width: 150px;
+        height: auto;  
     }
   }
   .next {
@@ -47,21 +46,23 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 600px) {
   .container {
     .poke-display {
-      padding: 14rem 0 0 0.5rem;
+        margin:0!important;
+        padding: 0.1rem 0 0 0.5rem;
       img {
-        width: 100px;
+        width: 400px;
         height: auto;
       }
     }
   }
 }
 
-@media only screen and (min-width: 1920px) {
+@media  (min-width: 1920px) {
   .container {
     .poke-display {
+       margin:0!important;
       padding: 6rem 0 0 1.5rem;
     }
   }
