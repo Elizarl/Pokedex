@@ -10,7 +10,7 @@
     padding-top: 6rem;
   }
   .poke-display {
-    padding-right:1.2rem;
+    padding-right: 1.2rem;
     display: flex;
     justify-content: center;
 
@@ -20,19 +20,28 @@
     }
   }
 
-  .next{
+  .next {
     display: flex;
     align-items: center;
+    border: thick double #32a1ce;
+    border-radius: 10px;
+    padding: 0 1rem;
+    margin-top: 2rem;
 
-p{  
-   padding:0 1rem;
-}
+    p {
+      padding: 0 1rem;
+      font-size: 1.5rem;
+      color: gray;
+      font-weight: 4rem;
+      font-family: "system-ui";
+    }
     img {
-        width: 40px;
-        height: auto;
-      }
+      width: 40px;
+      height: auto;
+    }
   }
 }
+
 @media only screen and (max-width: 600px) {
   .container {
     .poke-display {
@@ -46,9 +55,9 @@ p{
 }
 
 @media only screen and (min-width: 1920px) {
-    .container {
-      .poke-display {
-        padding: 6rem 0 0 1.5rem;
-      }
+  .container {
+    .poke-display {
+      padding: 6rem 0 0 1.5rem;
     }
   }
+}
