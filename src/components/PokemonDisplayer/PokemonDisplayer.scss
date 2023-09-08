@@ -1,0 +1,33 @@
+.container {
+  background-image: url("../../images/pokemon___pokeball_phone_wallpaper_by_brisity_dd0xve2-fullview.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  .head {
+    padding-top: 6rem;
+  }
+  .poke-display {
+    padding: 8rem 0 0 1.2rem;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 400px;
+      height: auto;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    .poke-display {
+      padding: 14rem 0 0 0.5rem;
+      img {
+        width: 100px;
+        height: auto;
+      }
+    }
+  }
+}
